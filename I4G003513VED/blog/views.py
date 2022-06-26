@@ -21,6 +21,7 @@ class PostCreateaview(CreateView):
 #postDetailView class definition
 class PostDetailView(DetailView):
     model = Post
+    
 
 #postUpdateView class definition
 class PostUpdateView(UpdateView):
