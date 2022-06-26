@@ -1,7 +1,6 @@
 from django.db import models
 
 # Create your models here.
-<<<<<<< HEAD
 from django.db import models
 from django.contrib.auth import get_user_model
 from django.utils import timezone
@@ -47,5 +46,3 @@ class Post(models.Model):
     def get_absolute_url(self):
         return reverse("blog:post_detail", kwargs={"slug": self.slug})
     
-=======
->>>>>>> fdfdeae (initial project)
